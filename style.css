@@ -5,6 +5,78 @@
   outline: 0;
 }
 
+header {
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  color: #fff;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.header-icons a:hover i {
+  animation: translateY 0.7s infinite alternate;
+  color: #d34040;
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.2);
+  }
+}
+.header-button {
+  border: 1px solid #fff;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+.header-button:hover {
+  background-color: #d94140;
+  border: 1px solid #d94140;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-content i {
+    margin-top: 10px;
+    font-size: 46px;
+  }
+  .header-logo img {
+    width: 160px;
+    margin-top: 45px;
+  }
+  .header-button {
+    display: none;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
