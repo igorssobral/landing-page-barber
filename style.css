@@ -26,9 +26,16 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.7s infinite alternate;
-  color: #d34040;
 }
-
+.header-icons a:hover .fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-icons a:hover .fa-facebook {
+  color: #5373b8;
+}
 @keyframes translateY {
   from {
     transform: translateY(0) scale(1);
