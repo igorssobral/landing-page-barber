@@ -20,17 +20,21 @@ i {
   i {
     animation: translateY 0.7s infinite alternate;
   }
-  .fa-instagram{
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  .fa-instagram {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .fa-facebook{
+  .fa-facebook {
     color: #5373b8;
-  }
-  .fa-tiktok{
-
   }
 }
 
@@ -43,46 +47,45 @@ i {
   }
 }
 
-.header-button{
-    border: 1px solid $white-normal;
-    padding: 8px 24px;
-    border-radius: 4px;
-    color: $white-normal;
-    background-color: transparent;
-    transition: background-color 0.5s;
+.header-button {
+  border: 1px solid $white-normal;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: $white-normal;
+  background-color: transparent;
+  transition: background-color 0.5s;
 }
 
-.header-button:hover{
-    background-color: $red-normal;
-    border: 1px solid $red-normal;
+.header-button:hover {
+  background-color: $red-normal;
+  border: 1px solid $red-normal;
 }
 
-.header-logo{
-    display: flex;
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+@media screen and (max-width: 768px) {
+  .header-content {
+    width: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 14px;
-}
-@media screen and (max-width: 768px){
-    .header-content{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
 
-        i{
-            margin-top: 10px;
-            font-size: 46px;
-        }
-
+    i {
+      margin-top: 10px;
+      font-size: 46px;
     }
+  }
 
-    .header-logo img{
-        width: 160px;
-        margin-top: 45px;
-    }
+  .header-logo img {
+    width: 160px;
+    margin-top: 45px;
+  }
 
-    .header-button{
-        display: none;
-    }
+  .header-button {
+    display: none;
+  }
 }

@@ -1,37 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
 }
 
 @import "partials/colors";
 @import "partials/header";
 @import "partials/layout";
 
-body{
-    font-family: 'Sora', sans-serif;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-color: $primary-normal;
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: $primary-normal;
 }
 
-button{
-    font-family: 'Sora', sans-serif;
-    cursor: pointer;
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
 }
 
-svg{
-    width: 100%;
+svg {
+  width: 100%;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-a{
-    cursor: pointer;
-    text-decoration: none;
+a {
+  cursor: pointer;
+  text-decoration: none;
 }
-
