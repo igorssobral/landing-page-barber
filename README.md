@@ -1,16 +1,82 @@
-# Landing Page Barber
+# Dev Barber
 
-Esse projeto é uma landing page de barbearia inspirada em um video do youtube, para fins de aprendizado e prática!
+Este é o repositório do site da Dev Barber, uma barbearia moderna que combina estilo e atendimento de qualidade. Aqui você encontra informações sobre os serviços oferecidos, horários de funcionamento e a possibilidade de agendar um horário diretamente pelo WhatsApp.
 
+## Índice
 
-## 🔨Tecnologias usadas
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Estrutura do Código](#estrutura-do-código)
 
-![](https://skillicons.dev/icons?i=js,html,css)
+## Funcionalidades
 
-## 📄Referência
-<a href="https://www.youtube.com/watch?v=Fzc_dnqD-V0" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" style="border-radius: 20px" target="_blank"></a>
+- Página inicial com informações sobre a barbearia e horário de funcionamento.
+- Seção "Sobre" com detalhes adicionais sobre a barbearia.
+- Seção de serviços oferecidos com preços.
+- Integração com Google Maps para localização.
+- Links para redes sociais.
+- Botão de agendamento via WhatsApp.
 
+## Tecnologias Utilizadas
 
- ### 🔔Minhas Redes
+- HTML
+- SASS (CSS pré-processado)
+- JavaScript
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- [Font Awesome](https://fontawesome.com/)
+- Google Maps Embed API
 
-<a href="https://www.linkedin.com/in/igorsobral-dev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 20px" target="_blank"></a>
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter um navegador web atualizado e o Node.js instalado.
+
+### Passos
+
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/igorssobral/landing-page-barber.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd landing-page-barber
+    ```
+
+3. Abra o arquivo `index.html` em um navegador:
+    ```bash
+    open index.html
+    ```
+
+## Estrutura do Código
+
+### HTML
+
+A estrutura do HTML define a página e inclui as seguintes seções principais:
+
+- Header com navegação e logotipo.
+- Seção principal (hero) com mensagem de boas-vindas e horário de funcionamento.
+- Seção "Sobre" com descrição da barbearia.
+- Seção de serviços com detalhes dos cortes e preços.
+- Integração com Google Maps para mostrar a localização.
+- Footer com links para redes sociais e logotipo.
+
+### SASS
+
+Os estilos são escritos em SASS e compilados para CSS. O arquivo principal de estilos é `style.scss`, que importa parciais para melhor organização:
+
+- `_variables.scss`: Variáveis SASS.
+- `_mixins.scss`: Mixins reutilizáveis.
+- `_header.scss`: Estilos para o header.
+- `_footer.scss`: Estilos para o footer.
+- `_animations.scss`: Estilos para animações.
+- `_responsive.scss`: Estilos responsivos.
+
+### JavaScript
+
+O arquivo `index.js` inicializa as animações do AOS.
+
+---
+
