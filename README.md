@@ -68,11 +68,9 @@ A estrutura do HTML define a página e inclui as seguintes seções principais:
 Os estilos são escritos em SASS e compilados para CSS. O arquivo principal de estilos é `style.scss`, que importa parciais para melhor organização:
 
 - `_variables.scss`: Variáveis SASS.
-- `_mixins.scss`: Mixins reutilizáveis.
 - `_header.scss`: Estilos para o header.
 - `_footer.scss`: Estilos para o footer.
-- `_animations.scss`: Estilos para animações.
-- `_responsive.scss`: Estilos responsivos.
+
 
 ### JavaScript
 
