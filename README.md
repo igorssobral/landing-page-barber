@@ -1,6 +1,6 @@
 # Dev Barber
 
-<p align="center"> <img src="https://portfolio-igor-silva-sobral.vercel.app/assets/project-barber-LEOjCQVj.png" alt="Javascript: validando formulários"> </p>
+<p align="center"> <img src="https://portfolio-igor-silva-sobral.vercel.app/assets/project-barber-LEOjCQVj.png" alt="Dev Barber"> </p>
 
 
 Este é o repositório do site da Dev Barber, uma barbearia moderna que combina estilo e atendimento de qualidade. Aqui você encontra informações sobre os serviços oferecidos, horários de funcionamento e a possibilidade de agendar um horário diretamente pelo WhatsApp.
